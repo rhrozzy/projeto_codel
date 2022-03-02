@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+        --corfonttest: #d1b5b0d0;
+        --cor0: #F2ECEB;
+        --cor1: #D9C6BA;
+        --cor2: #BFA68F;
+        --cor3: #94745D;
+        --corP: #947b6a7e;
+        --cor4: #8C6751;
+        --fonte0: 'Arial', Helvetica, sans-serif;
+        --fonte1: 'Bad Script', cursive;
+        --fonte2: 'Poppins', sans-serif;
+
+}
+
+html, body {
+    min-height: 100vh;
+    background-color:var(--cor1) ;
+}
+
+header {
+    font-family: var(--fonte2);
+    background-image: linear-gradient(to right, #BFA68F,#D9C6BA, #BFA68F ) ;
+    color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+    
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant:small-caps ;
+    font-size: 3em;
+    text-shadow:  1px 1px 0px rgba(0, 0, 0, 0.205);
+    background-image: linear-gradient(to bottom, var(--cor3),var(--cor2), var(--cor1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+header > p {
+    color: #8d7c6e;
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+     color: #7c6d60;
+     text-decoration: none;
+ }
+
+
+header a:hover, footer a:hover {
+    color: #6d6055;
+    text-decoration: underline;
+}
+
+
+section {
+    padding-top: 8vh ;
+    padding-bottom: 8vh;
+    line-height: 1.8em;
+    padding-left: 35px;
+
+}
+
+section.image {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.39);
+    background-color: var(--cor4);
+    color: var(--cor2);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.image > p {  
+    font-size: 1.5em;
+    font-family: var(--fonte1);
+    padding-left: 10px;
+    border-radius: 5px; 
+    display: inline-block;
+    background-color: var(--corP);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.781);
+}
+
+
+section.normal {
+    font-size: 1.3em;
+    font-family: var(--fonte1);
+    background-color: var(--cor2);
+    color: var(--cor1);
+
+}
+
+section#img01 {
+    background-position: center bottom;
+    background-image: url('imagens/background003.jpg');
+
+
+}
+
+
+section#img02 {
+    background-position: center top;
+    background-image: url('imagens/background004.jpg');
+}
+
+
+ footer {
+     text-align: center;
+     color:#534437;
+     font-family: var(--fonte2);
+     background-image: linear-gradient(to top, var(--cor4),var(--cor3), var(--cor4))
+ }
+
+#footer1 {
+     color:#000000;
+ }
+
