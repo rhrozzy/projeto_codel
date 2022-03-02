@@ -30,10 +30,9 @@ html, body {
 
 header {
     font-family: var(--fonte2);
-    background-image: linear-gradient(to right, #BFA68F,#D9C6BA, #BFA68F ) ;
+    background-image: linear-gradient(to right, #BFA68F,#b99e8ebe, #BFA68F ) ;
     color: rgba(255, 255, 255, 0.637);
-    text-align: center;
-    
+    text-align: center;   
 }
 
 header > h1 {
@@ -45,7 +44,6 @@ header > h1 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 header > p {
@@ -97,14 +95,11 @@ section.normal {
     font-family: var(--fonte1);
     background-color: var(--cor2);
     color: var(--cor1);
-
 }
 
 section#img01 {
     background-position: center bottom;
     background-image: url('imagens/background003.jpg');
-
-
 }
 
 
